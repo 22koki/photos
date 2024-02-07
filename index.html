@@ -1,93 +1,133 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Iconic Images - Photography Portfolio">
+    <meta name="keywords" content="photography, portfolio, images, web design, mobile design">
+    <meta name="author" content="Your Name">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./public/favicon.ico" type="image/x-icon">
+
     <!-- Google Font - QuickSand -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- CSS file -->
     <link rel="stylesheet" href="./public/css/style.css">
 
+    <!-- Page Title -->
+    <title>Iconic Images - Photography Portfolio</title>
 </head>
+
 <body>
     <header>
-        <h2><a href="#">Photographer</a></h2>
+        <h2><a href="#">Iconic Images</a></h2>
         <nav>
-            <li><a href="#">Home</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#reviews">Reviews</a></li>
-            <li><a href="#contact">Contacts</a></li>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
         </nav>
     </header>
 
     <section id="home">
         <div class="background-image" style="background-image:url(./public/img/hero.jpg);"></div>
-            <h1>Iconic Images</h1>
-            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        <h1>Welcome to Iconic Images</h1>
+        <h3>Capturing moments that last a lifetime</h3>
+        <a href="#" class="btn">Explore More</a>
     </section>
 
     <section id="gallery">
-        <h3 class="title">Some of our work</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, voluptatum? Maxime eos dolorum eaque hic? Cumque in reprehenderit fugit fugiat quidem amet minima soluta maiores aliquam blanditiis porro beatae repudiandae perspiciatis, quibusdam possimus. Vel, ipsum.</p>
+        <h3 class="title">Some of our Captured Moments</h3>
+        <p>Explore a collection of stunning photographs that tell unique stories and evoke powerful emotions.</p>
         <hr>
         <ul class="grid">
             <li class="small" style="background-image: url(./public/img/coast.jpg);"></li>
             <li class="large" style="background-image: url(./public/img/island.jpg);"></li>
             <li class="large" style="background-image: url(./public/img/balloon.jpg);"></li>
-            <li class="small" style="background-image: url(./public/img/mountain.jpg);"></li>            
+            <li class="small" style="background-image: url(./public/img/mountain.jpg);"></li>
         </ul>
     </section>
 
     <section id="features">
-        <h3 class="title">Features and services</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quaerat iure nam aspernatur voluptates vero fugiat. Consectetur laboriosam delectus officiis cumque tempore perspiciatis aliquid mollitia magni aut, fugit rem quam?</p>
+        <h3 class="title">Features and Services</h3>
+        <p>Discover our professional photography services and features that make us stand out in the industry.</p>
         <hr>
         <ul class="grid">
             <li>
                 <i class="fa fa-camera-retro"></i>
                 <h4>Photography</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quia, rerum ullam fugiat facilis aut!</p>
+                <p>Capture your special moments with our expert photographers who excel in storytelling through images.</p>
             </li>
             <li>
                 <i class="fa fa-tablet-alt"></i>
                 <h4>Web & Mobile</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quia, rerum ullam fugiat facilis aut!</p>
+                <p>Experience seamless browsing and accessibility on both web and mobile platforms to view and share your photos.</p>
             </li>
             <li>
                 <i class="fa fa-newspaper"></i>
-                <h4>Content editing</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quia, rerum ullam fugiat facilis aut!</p>
+                <h4>Content Editing</h4>
+                <p>Our skilled editing team ensures that every photo is perfected, delivering the highest quality to our clients.</p>
             </li>
         </ul>
     </section>
 
-    <section id="reviews">
-        <h3 class="title">What others say :</h3>
+  <!-- ... (previous code remains unchanged) -->
 
-        <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit quos inventore facere rerum perferendis iste fuga facilis atque iusto!</p>
-        <p class="author">James Farell</p>
-        <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit quos inventore facere rerum perferendis iste fuga facilis atque iusto!</p>
-        <p class="author">Georges Smith</p>
-        <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit quos inventore facere rerum perferendis iste fuga facilis atque iusto!</p>
-        <p class="author">Patrick Cornell</p>
-    </section>
+<section id="reviews">
+    <h3 class="title">What our Clients Say</h3>
+
+    <div class="review">
+        <div class="client-info">
+            <img src="./public/img/download.jpeg" alt="Client 1 Photo">
+            <p class="author">James Farell</p>
+        </div>
+        <p class="quote">"Iconic Images captured the essence of our special day. The photos are beyond beautiful, and we cherish them forever."</p>
+    </div>
+
+    <div class="review">
+        <div class="client-info">
+            <img src="./public/img/images (1).jpeg" alt="Client 2 Photo">
+            <p class="author">Georges Smith</p>
+        </div>
+        <p class="quote">"The professionalism and creativity of Iconic Images exceeded our expectations. Highly recommended!"</p>
+    </div>
+
+    <div class="review">
+        <div class="client-info">
+            <img src="./public/img/images.jpeg" alt="Client 3 Photo">
+            <p class="author">Patrick Cornell</p>
+        </div>
+        <p class="quote">"Exceptional service and attention to detail. Iconic Images truly understands the art of photography."</p>
+    </div>
+</section>
+
+<!-- ... (rest of the code remains unchanged) -->
+
 
     <section id="contact">
-        <h3 class="title">Join our newsletter</h3>
-        <p>Sign up with your email address to receive news and updates.</p>
+        <h3 class="title">Join our Newsletter</h3>
+        <p>Stay updated with our latest photography collections and exclusive offers by subscribing to our newsletter.</p>
         <hr>
         <form>
-            <input type="email" placeholder="Email Address">
-            <a href="#" class="btn">Subscribe</a>
+            <input type="email" placeholder="Enter your Email Address">
+            <a href="#" class="btn">Subscribe Now</a>
         </form>
     </section>
 
 </body>
+
 </html>
